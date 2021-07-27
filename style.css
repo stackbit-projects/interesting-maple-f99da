@@ -1,0 +1,145 @@
+body{
+    margin: 30px;
+}
+#container{
+    width: 320px;
+    height: 500px;
+    background-image: url(loginc.png);
+    box-shadow: 2px 3px 10px 2px black;
+    border: 1px solid rgb(77, 74, 74);
+    border-radius: 5px;
+    margin: 80px 0 0 410px;
+}
+.user{
+    background-image: url(user.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 170px;
+    margin-left: 68px;
+}
+.username{
+    width: 250px;
+    height: 38px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(17, 240, 155);
+    margin-left: 30px;
+    outline: none;
+  
+}
+.username:hover{
+    background-color: white;
+    transform: translateY(-1px);
+}
+.log-in{
+    width: 100px;
+    height: 25px;
+    border-style: none;
+    font-size: 18px;
+    font-family: Courier;
+    color:red;
+    font-weight: bold;
+    border-radius: 12px;
+    margin-left: 108px;
+    outline: none;
+    letter-spacing: 1   px;
+    box-shadow: 1px 1px 3px 0 rgb(143, 124, 124);
+}
+.log-in:hover{
+    background-color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 1px 4px 0 rgb(46, 44, 44);
+}
+.log-in:active{
+    transform: translateY(0.5px);
+    box-shadow: 0 1px 2px 0 rgb(46, 40, 40);
+}
+.note{
+    margin-left: 25px;
+    font-size: 14px;
+    font-family: serif;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.note:hover{
+    color: blue;
+    transform: translateY(-5px);
+    text-decoration: underline;
+}
+/*Sign-up form CSS*/
+
+#container1{
+    width: 320px;
+    height: 500px;
+    background-image: url(registerc.png);
+    box-shadow: 2px 3px 10px 2px black;
+    border: 1px solid rgb(77, 74, 74);
+    border-radius: 5px;
+    margin: 80px 0 0 410px;
+}
+.user1{
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 120px;
+    position: relative;
+    bottom: 15px;
+    margin-left: 95px;
+}
+.username1{
+    width: 250px;
+    height: 38px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(17, 240, 155);
+    outline: none;
+}
+.username1:hover{
+    background-color: white;
+    transform: translateY(-1px);
+}
+#div1{
+    margin-left: 36px;
+    position: relative;
+    bottom: 20px;
+}
+.sign-up{
+    width: 100px;
+    height: 25px;
+    border-style: none;
+    font-size: 18px;
+    font-family: Courier;
+    color:red;
+    font-weight: bold;
+    border-radius: 12px;
+    margin-left: 80px;
+    outline: none;
+    letter-spacing: 1  px;
+    box-shadow: 1px 1px 3px 0 rgb(143, 124, 124);
+}
+.sign-up:hover{
+    background-color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 1px 4px 0 rgb(46, 44, 44);
+}
+.sign-up:active{
+    transform: translateY(0.5px);
+    box-shadow: 0 1px 2px 0 rgb(46, 40, 40);
+}
+.note1{
+    margin-left: 25px;
+    font-size: 14px;
+    font-family: serif;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    bottom: 55px;
+
+}
+.note1:hover{
+    color: blue;
+    transform: translateY(-5px);
+    text-decoration: underline;
+}
